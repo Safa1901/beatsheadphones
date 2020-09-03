@@ -436,8 +436,11 @@ img {
 .radio:last-child {
   margin-right: 0;
 }
-.radio--checkbox:before {
-  background: url("./img/Vector.png");
+.radio--checkbox .radio__visible {
+  border-radius: 0;
+}
+.radio--checkbox .radio__visible:before {
+  background: url("/img/vector.png") center center no-repeat;
 }
 
 .radio__elem {
@@ -455,9 +458,6 @@ img {
   background: #fff;
   margin-right: 10px;
 }
-.radio__visible--checkbox {
-  border-radius: 0;
-}
 .radio__visible:before {
   content: "";
   position: absolute;
@@ -469,9 +469,6 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-.radio__visible:before:last-child {
-  background: url("./img/vector.svg");
 }
 
 .fixed-menu {
@@ -502,7 +499,7 @@ img {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: black;
+  background: #9A9A9A;
   position: absolute;
   top: 50%;
   left: 50%;

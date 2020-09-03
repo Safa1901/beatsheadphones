@@ -9,11 +9,13 @@
     margin-right: 0;
   }
 
-
   &--checkbox {
+    .radio__visible {
+      border-radius: 0;
 
-    &:before {
-      background: url("./img/Vector.png");
+      &:before {
+        background: url("/img/vector.png") center center no-repeat;
+      }
     }
   }
 }
@@ -36,10 +38,6 @@
   background: #fff;
   margin-right: 10px;
 
-  &--checkbox {
-    border-radius: 0;
-  }
-
   &:before {
     content: "";
     position: absolute;
@@ -51,10 +49,5 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    &:last-child {
-      background: url("./img/vector.svg");
-    }
   }
 }
-
