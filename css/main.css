@@ -73,7 +73,7 @@ img {
 }
 
 .hero {
-  background: url("./img/beats.png") left 80% center no-repeat;
+  background: url("../img/beats.png") left 80% center no-repeat;
   background-color: #F8FAF9;
   height: 100vh;
   min-height: 650px;
