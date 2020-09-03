@@ -129,6 +129,7 @@ img {
   text-decoration: none;
   display: flex;
   align-items: center;
+  font-style: normal;
 }
 
 .phone-number__icon-elem {
