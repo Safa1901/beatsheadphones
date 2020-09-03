@@ -73,7 +73,7 @@ img {
 }
 
 .hero {
-  background: url("../../img/beats.png") left 80% center no-repeat;
+  background: url("../img/beats.png") left 80% center no-repeat;
   background-color: #F8FAF9;
   height: 100vh;
   min-height: 650px;
@@ -369,7 +369,7 @@ img {
 }
 
 .order-section {
-  background: rgba(0, 0, 0, 0.5) url("../../img/back.png") center center no-repeat;
+  background: rgba(0, 0, 0, 0.5) url("../img/back.png") center center no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
   color: #fff;
