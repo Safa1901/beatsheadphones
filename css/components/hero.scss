@@ -1,13 +1,55 @@
 .hero {
-  background: url("../img/beats.png") left 80% center no-repeat;
   background-color: $grey;
   height: 100vh;
-  min-height: 650px;
+  min-height: 40.625rem;
   color: #292929;
+
+  &:before {
+    content: "";
+    display: block;
+    width: 2.875rem;
+    height: 0.625rem;
+    background: #C4C4C4;
+    position: absolute;
+    right: 10%;
+    top: 40.115rem;
+    transform: rotate(-45deg);
+
+    @include tablets {
+      display: none;
+    }
+
+    @include phones {
+      display: block;
+      top: 53.555rem;
+    }
+
+  }
 }
 
 .hero__title-section {
   width: 46%;
+
+  @include tablets {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    &:before {
+      content: url("/img/beatst.png");
+      padding-bottom: 6%;
+    }
+  }
+}
+
+.hero__icons-section {
+  @include tablets {
+    display: none;
+  }
 }
 
 .hero__container {
@@ -15,19 +57,40 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  padding: 24px 0 70px;
+  padding: 1.5rem 0 4.375rem;
+  background: url("../img/beats.png") left 98% center no-repeat;
+
+  @include tablets {
+    background: none;
+  }
 }
 
 .hero__main-title {
-  font-size: 48px;
+  font-size: 3rem;
   line-height: 1.1;
   font-weight: bold;
-  margin-bottom: 22px;
+  margin-bottom: 1.375rem; 
   text-transform: uppercase;
+
+  @include tablets {
+    padding: 0 8%;
+  }
+
+  @include phones {
+    font-size: 2.5rem;
+  }
 }
 
 .hero__title-desc {
-  font-size: 21px;
-  margin-bottom: 36px;
+  font-size: 1.3125rem;
+  margin-bottom: 2.25rem;
   padding-right: 10%;
+
+  @include tablets {
+    padding: 0 20%;
+  }
+
+  @include phones {
+    padding: 5% 12%;
+  }
 }

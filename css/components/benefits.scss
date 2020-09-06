@@ -1,10 +1,20 @@
 .benefits {
   display: flex;
+
+  @include phones {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .benefits__item {
   flex: 1;
   margin: 0 3%;
+
+  @include phones {
+    display: flex;
+    margin: 0;
+  }
 
   &:first-child {
     margin-left: 0;
