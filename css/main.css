@@ -134,7 +134,7 @@ img {
     margin: 0 auto;
   }
   .hero__title-section:before {
-    content: url("/img/beatst.png");
+    content: url("../img/beatst.png");
     padding-bottom: 6%;
   }
 }
