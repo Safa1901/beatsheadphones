@@ -59,8 +59,9 @@
   border: solid 0.1875rem transparent;
 
   &--textarea {
-    width: 18.125rem;
+    width: 28.125rem;
     height: 9.5rem;
+    display: block;
     resize: none;
 
     @include tablets {
