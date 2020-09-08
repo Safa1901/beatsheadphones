@@ -1,0 +1,65 @@
+.footer {
+    min-height: 5.375rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #292929;
+    font-size: 1.1rem;
+
+    @include tablets {
+        height: 6.6875rem;
+    }
+
+    @include phones {
+        height: 9.4375rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+    &__col {
+        align-items: flex-start;
+
+        @include phones {
+            flex: 1;
+            padding-top: 15px;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+        }
+        
+        &--align--right {
+            align-items: flex-end;
+
+            @include phones {
+                flex: 1;
+                display: flex;
+                padding-bottom: 31px;
+            }
+        }
+    }
+
+    @include tablets {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 1.875rem;
+
+        &-number.phone-number.header__phone-number {
+            display: inline-block;
+            color: $red;
+
+            @include phones {
+                color: black;
+                padding-right: 5%;
+            }
+        }
+    }
+
+    .footer__title {
+        @include phones {
+            padding-bottom: 12px;
+        }
+    }
+}

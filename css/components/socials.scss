@@ -1,0 +1,43 @@
+.socials {
+    display: flex;
+}
+
+.socials__link {
+    display: block;
+    text-decoration: none;
+    width: 1.875rem;
+    height: 1.875rem;
+    background-size: contain;;
+}
+
+.social__item {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3%;
+
+    &:last-child {
+        padding-right: 3.375rem;
+    }
+
+    @include phones {
+        padding-right: 12px;
+    }
+}
+
+// .social__item--icon--vk .socials__link {
+    background-image: url("/img/vkk.svg");
+}
+
+// .social__item--icon--fb .socials__link {
+    background-image: url("/img/fb.svg");
+}
+
+// .social__item--icon--insta .socials__link {
+    background-image: url("/img/insta.svg");
+}
+
+// .social__item--icon--telegram .socials__link {
+    background-image: url("/img/tel.svg");
+}

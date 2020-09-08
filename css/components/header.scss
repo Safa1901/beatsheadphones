@@ -4,6 +4,11 @@
   justify-content: space-between;
 }
 
+.logo__img {
+  width: 40px;
+  height: 40px;
+}
+
 .phone-number.header__phone-number {
   @include tablets {
     display: none;
