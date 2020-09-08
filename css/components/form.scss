@@ -74,8 +74,9 @@
   }
 
   &:focus {
+    outline-style: solid;
     border-color: $red;
-    outline: none;
+    outline-width: thick;
   }
 }
 

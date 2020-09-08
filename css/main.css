@@ -686,8 +686,9 @@ img {
   }
 }
 .form__input:focus {
+  outline-style: solid;
   border-color: #E01F3D;
-  outline: none;
+  outline-width: thick;
 }
 
 @media screen and (max-width: 480px) {
@@ -922,6 +923,11 @@ img {
   background-size: contain;
 }
 
+.link {
+  width: 30px;
+  height: 30px;
+}
+
 .social__item {
   display: flex;
   flex: 1;
@@ -936,20 +942,4 @@ img {
   .social__item {
     padding-right: 12px;
   }
-}
-
-.social__item--icon--vk .socials__link {
-  background-image: url("/img/vkk.svg");
-}
-
-.social__item--icon--fb .socials__link {
-  background-image: url("/img/fb.svg");
-}
-
-.social__item--icon--insta .socials__link {
-  background-image: url("/img/insta.svg");
-}
-
-.social__item--icon--telegram .socials__link {
-  background-image: url("/img/tel.svg");
 }
