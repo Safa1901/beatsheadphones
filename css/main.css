@@ -955,7 +955,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
+    min-width: 48.375rem;
     min-height: 51rem;
     margin: 0;
     margin: 0 auto;
@@ -977,7 +977,7 @@ img {
 }
 @media screen and (max-width: 768px) {
   .container__color {
-    background: url("../img/beatst.png") top 15% right 90% no-repeat;
+    background: url("../img/beatst.png") top 15% right 45% no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -995,8 +995,8 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     text-align: center;
+    padding-top: 29rem;
     margin: 0 auto;
   }
 }
@@ -1056,6 +1056,12 @@ img {
 
 .order {
   display: flex;
+}
+@media screen and (max-width: 768px) {
+  .order {
+    padding-bottom: 10rem;
+    margin: 0 auto;
+  }
 }
 
 .price {
