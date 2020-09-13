@@ -1,10 +1,9 @@
 .features {
-  display: flex;
-}
+  display: flex; }
 
 .features__item {
-  margin-right: 1.1875rem;
-}
-.features__item:last-child {
-  margin-right: 0;
-}
+  margin-right: 1.1875rem; }
+  .features__item:last-child {
+    margin-right: 0; }
+
+/*# sourceMappingURL=features.css.map */

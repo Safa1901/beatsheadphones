@@ -1,0 +1,22 @@
+.options {
+  display: none; }
+
+.options__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 35px; }
+  .options__item:last-child {
+    padding-bottom: 35px; }
+
+.options__right {
+  display: flex; }
+
+.options__icon {
+  width: 24px;
+  height: 24px; }
+
+.options__title {
+  padding-left: 20px; }
+
+/*# sourceMappingURL=options.css.map */

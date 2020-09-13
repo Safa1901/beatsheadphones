@@ -1,23 +1,21 @@
 /*
 Error: Undefined mixin 'tablets'.
-        on line 8 of C:\Users\feel_\OneDrive\Desktop\project2\css\components\reviews.scss, in `tablets'
-        from line 8 of C:\Users\feel_\OneDrive\Desktop\project2\css\components\reviews.scss
+        on line 13 of C:\Users\feel_\OneDrive\Desktop\project2\css\components\header.scss, in `tablets'
+        from line 13 of C:\Users\feel_\OneDrive\Desktop\project2\css\components\header.scss
 
-3:   padding: 3.125rem 2.8125rem 2.125rem;
-4:   display: flex;
-5:   overflow: hidden;
-6:   position: relative;
-7: 
-8:   @include tablets {
-9:     display: flex;
-10:     flex-direction: column;
-11:     justify-content: center;
-12:     align-items: center;
-13:     text-align: center;
+8:   width: 40px;
+9:   height: 40px;
+10: }
+11: 
+12: .phone-number.header__phone-number {
+13:   @include tablets {
+14:     display: none;
+15:   }
+16: }
 
 Backtrace:
-C:\Users\feel_\OneDrive\Desktop\project2\css\components\reviews.scss:8:in `tablets'
-C:\Users\feel_\OneDrive\Desktop\project2\css\components\reviews.scss:8
+C:\Users\feel_\OneDrive\Desktop\project2\css\components\header.scss:13:in `tablets'
+C:\Users\feel_\OneDrive\Desktop\project2\css\components\header.scss:13
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -66,4 +64,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 8 of C:\Users\feel_\OneDrive\Desktop\project2\css\components\reviews.scss, in `tablets'\A         from line 8 of C:\Users\feel_\OneDrive\Desktop\project2\css\components\reviews.scss\A \A 3:   padding: 3.125rem 2.8125rem 2.125rem;\A 4:   display: flex;\A 5:   overflow: hidden;\A 6:   position: relative;\A 7: \A 8:   @include tablets {\A 9:     display: flex;\A 10:     flex-direction: column;\A 11:     justify-content: center;\A 12:     align-items: center;\A 13:     text-align: center;"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 13 of C:\Users\feel_\OneDrive\Desktop\project2\css\components\header.scss, in `tablets'\A         from line 13 of C:\Users\feel_\OneDrive\Desktop\project2\css\components\header.scss\A \A 8:   width: 40px;\A 9:   height: 40px;\A 10: }\A 11: \A 12: .phone-number.header__phone-number {\A 13:   @include tablets {\A 14:     display: none;\A 15:   }\A 16: }"; }

@@ -4,7 +4,7 @@ $baseFontSize: 16px;
 //breakpoints
 
 $tablets: 768px;
-$phones: 480px;
+$phones: 480px; 
 
 //colors
 $grey: #F8FAF9;
@@ -12,7 +12,7 @@ $red: #E01F3D;
 
 //z-indexes
 
-$z-fixed-menu: 100;
+$z-fixed-menu: 100px;
 
 @import "media";
 

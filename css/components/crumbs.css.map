@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,OAAQ;EACJ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,cAAc,EAAE,MAAM;;AAG1B,aAAc;EACV,KAAK,EAAE,OAAO;EAEd,wBAAa;IACT,aAAa,EAAE,KAAK;;AAI5B,aAAc;EACV,WAAW,EAAE,IAAI;EACjB,KAAK,EAAE,OAAO",
+"sources": ["crumbs.scss"],
+"names": [],
+"file": "crumbs.css"
+}

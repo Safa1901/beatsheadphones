@@ -1,3 +1,5 @@
 .map-section {
-  background: url("/img/map.png") center center no-repeat;
-}
+  background: url("../img/map.png") center center no-repeat;
+  background-size: cover; }
+
+/*# sourceMappingURL=map-section.css.map */

@@ -1,14 +1,19 @@
 .wrapper__color {
-    min-height: 40.125rem;
-    min-width: 85rem;
+    width: 95%;
+    max-width: $containerWidth;
     margin: 0 auto;
+    position: relative;
+    height: 100%;
+    //min-height: 40.125rem;
+    //min-width: 85rem;
+    //margin: 0 auto;
 
     @include tablets {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        min-width: 48.375rem;
-        min-height: 51rem;
+        //min-width: 48.375rem;
+       //min-height: 51rem;
         margin: 0;
     }
 }
@@ -20,6 +25,8 @@
 }
 
 .container__color {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row-reverse;
     justify-content: end;
@@ -27,10 +34,12 @@
     background: url("../img/beatscolor.png")left top 40% no-repeat;
 
     @include tablets {
-        background: url("../img/beatst.png") top 15% right 45% no-repeat;
+        background: url("../img/bcol.png") top 15% right 45% no-repeat;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin: 0!important;
+        min-height: 51rem;
     }
 }
 
@@ -46,6 +55,8 @@
         justify-content: center;
         text-align: center;
         padding-top: 29rem;
+        width: 100%;
+        padding-left: 0;
     }
 }
 
@@ -100,14 +111,45 @@
     text-transform: uppercase;
     padding-top: 1.5625rem;
 
+    @include tablets {
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+
     &-desc {
         color: #666666;
         padding-bottom: 1.57rem;
+
+        @include tablets {
+            font-size: 1rem;
+            padding: 0.875rem 5rem;
+        }
+    }
+}
+
+.crumbs {
+    @include tablets {
+        display: flex;
+        justify-content: space-around;
+        text-align: start;
+        padding-left: 5.75rem;
+        margin: 0;
+        padding-bottom: 1.5rem;
+    }
+}
+
+.crumbs__item {
+
+    @include tablets {
+        &:last-child {
+            padding-left: 3.75rem;
+        }
     }
 }
 
 .order {
     display: flex;
+    padding-bottom: 7.75rem;
 
     @include tablets {
         padding-bottom: 10rem;
