@@ -973,11 +973,11 @@ img {
   flex-direction: row-reverse;
   justify-content: end;
   width: 100%;
-  background: url("/img/beatscolor.png") left top 40% no-repeat;
+  background: url("../img/beatscolor.png") left top 40% no-repeat;
 }
 @media screen and (max-width: 768px) {
   .container__color {
-    background: url("/img/beatst.png") top 15% right 90% no-repeat;
+    background: url("../img/beatst.png") top 15% right 90% no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
