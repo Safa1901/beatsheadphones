@@ -1,0 +1,118 @@
+.wrapper__color {
+    min-height: 40.125rem;
+    min-width: 85rem;
+    margin: 0 auto;
+
+    @include tablets {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        min-height: 51rem;
+        margin: 0;
+    }
+}
+
+.color {
+    background: $grey;
+    color: #292929;
+    display: flex;
+}
+
+.container__color {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    width: 100%;
+    background: url("/img/beatscolor.png")left top 40% no-repeat;
+
+    @include tablets {
+        background: url("/img/beatst.png") top 15% right 90% no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+.color__title-section {
+    width: 50%;
+    padding-top: 4.125rem;
+    padding-left: 3.75rem;
+
+    @include tablets {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.setings {
+    width: 91px;
+    height: 91px;
+    display: inline-block;
+    position: relative;
+    background: #9A9A9A;
+    border-radius: 4px;
+    // overflow: hidden;
+    
+    @include tablets {
+        display: none;
+    }
+
+    &:hover {
+        &.setings .options {
+            display: block;
+            position: absolute;
+            left: 90px;
+            background: rgba(255, 255, 255, 0.8);
+            width: 17.0625rem;
+            min-height: 18.375rem;
+            box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.06);
+            backdrop-filter: blur(40px);
+            border-radius: 4px;
+        }
+    }
+}
+
+
+
+.gear {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    fill: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.benefit {
+    width: 50%;
+}
+
+.color__title {
+    font-size: 2.25rem;
+    line-height: 2.625rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 1.5625rem;
+
+    &-desc {
+        color: #666666;
+        padding-bottom: 1.57rem;
+    }
+}
+
+.order {
+    display: flex;
+}
+
+.price {
+    font-size: 2.25rem;
+    padding-right: 1rem;
+    margin: 0;
+    margin-left: 0;
+}
