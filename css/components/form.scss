@@ -101,7 +101,8 @@
 
   @include tablets {
     margin-top: 0;
-    padding: 0 16%;
+    padding: 4% 16%;
+    padding-bottom: 11.25rem;
   }
 
   @include phones {

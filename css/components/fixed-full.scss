@@ -1,0 +1,44 @@
+.full__menu {
+    display: none;
+    background: #313131;
+    width: 100%;
+    left: 0;
+    z-index: 1;
+    
+
+    @include tablets {
+       display: flex;
+       position: fixed;
+       width: 100vw;
+       height: 100vh;
+       top: 0;
+       align-items: center;
+    }
+}
+
+.full-menu__list {
+
+    @include tablets {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 50%;
+    }
+}
+
+.full-menu__item {
+    @include tablets {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.full-menu__link {
+    
+    @include tablets {
+        text-decoration: none;
+        font-size: 2.25rem;
+        line-height: 4.5rem;
+        color: #FFFFFF;
+    }
+}

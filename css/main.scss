@@ -12,7 +12,7 @@ $red: #E01F3D;
 
 //z-indexes
 
-$z-fixed-menu: 100px;
+$z-fixed-menu: 100vh;
 
 @import "media";
 
@@ -48,3 +48,4 @@ $z-fixed-menu: 100px;
 @import "components/color";
 @import "components/crumbs";
 @import "components/options";
+@import "components/fixed-full";
