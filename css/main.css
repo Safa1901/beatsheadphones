@@ -535,7 +535,6 @@ img {
     .form__input {
       height: 3rem; } }
   .form__input:focus {
-    width: 3px;
     outline-style: solid;
     outline-color: #E01F3D;
     outline-width: thick; }
