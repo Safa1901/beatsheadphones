@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'phones'.
-        on line 5 of C:\Users\feel_\OneDrive\Desktop\project2\css\components\headline.scss, in `phones'
-        from line 5 of C:\Users\feel_\OneDrive\Desktop\project2\css\components\headline.scss
+        on line 5 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\headline.scss, in `phones'
+        from line 5 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\headline.scss
 
 1: .headline {
 2:   text-align: center;
@@ -15,8 +15,8 @@ Error: Undefined mixin 'phones'.
 10:     padding-bottom: 10%;
 
 Backtrace:
-C:\Users\feel_\OneDrive\Desktop\project2\css\components\headline.scss:5:in `phones'
-C:\Users\feel_\OneDrive\Desktop\project2\css\components\headline.scss:5
+C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\headline.scss:5:in `phones'
+C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\headline.scss:5
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -65,4 +65,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'phones'.\A         on line 5 of C:\Users\feel_\OneDrive\Desktop\project2\css\components\headline.scss, in `phones'\A         from line 5 of C:\Users\feel_\OneDrive\Desktop\project2\css\components\headline.scss\A \A 1: .headline {\A 2:   text-align: center;\A 3:   padding: 4.0625rem;\A 4: \A 5:   @include phones {\A 6:     display: flex;\A 7:     flex-direction: column;\A 8:     justify-content: space-between;\A 9:     padding: 0;\A 10:     padding-bottom: 10%;"; }
+  content: "Error: Undefined mixin 'phones'.\A         on line 5 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\headline.scss, in `phones'\A         from line 5 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\headline.scss\A \A 1: .headline {\A 2:   text-align: center;\A 3:   padding: 4.0625rem;\A 4: \A 5:   @include phones {\A 6:     display: flex;\A 7:     flex-direction: column;\A 8:     justify-content: space-between;\A 9:     padding: 0;\A 10:     padding-bottom: 10%;"; }

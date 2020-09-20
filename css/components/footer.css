@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'tablets'.
-        on line 9 of C:\Users\feel_\OneDrive\Desktop\project2\css\components\footer.scss, in `tablets'
-        from line 9 of C:\Users\feel_\OneDrive\Desktop\project2\css\components\footer.scss
+        on line 9 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\footer.scss, in `tablets'
+        from line 9 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\footer.scss
 
 4:     align-items: center;
 5:     justify-content: space-between;
@@ -16,8 +16,8 @@ Error: Undefined mixin 'tablets'.
 14:         height: 9.4375rem;
 
 Backtrace:
-C:\Users\feel_\OneDrive\Desktop\project2\css\components\footer.scss:9:in `tablets'
-C:\Users\feel_\OneDrive\Desktop\project2\css\components\footer.scss:9
+C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\footer.scss:9:in `tablets'
+C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\footer.scss:9
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -66,4 +66,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 9 of C:\Users\feel_\OneDrive\Desktop\project2\css\components\footer.scss, in `tablets'\A         from line 9 of C:\Users\feel_\OneDrive\Desktop\project2\css\components\footer.scss\A \A 4:     align-items: center;\A 5:     justify-content: space-between;\A 6:     color: #292929;\A 7:     font-size: 1.1rem;\A 8: \A 9:     @include tablets {\A 10:         height: 6.6875rem;\A 11:     }\A 12: \A 13:     @include phones {\A 14:         height: 9.4375rem;"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 9 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\footer.scss, in `tablets'\A         from line 9 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\footer.scss\A \A 4:     align-items: center;\A 5:     justify-content: space-between;\A 6:     color: #292929;\A 7:     font-size: 1.1rem;\A 8: \A 9:     @include tablets {\A 10:         height: 6.6875rem;\A 11:     }\A 12: \A 13:     @include phones {\A 14:         height: 9.4375rem;"; }

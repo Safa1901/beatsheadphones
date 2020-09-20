@@ -1,12 +1,12 @@
 /*
 Error: Undefined variable: "$red".
-        on line 11 of C:\Users\feel_\OneDrive\Desktop\project2\css\components\interactive-avatar.scss
+        on line 11 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\interactive-avatar.scss
 
 6:   border-radius: 50%;
 7:   overflow: hidden;
 8:   position: relative;
 9: 
-10:   &--active {
+10:   &.active {
 11:     border-color: $red;
 12:   } 
 13: }
@@ -15,7 +15,7 @@ Error: Undefined variable: "$red".
 16:   position: absolute;
 
 Backtrace:
-C:\Users\feel_\OneDrive\Desktop\project2\css\components\interactive-avatar.scss:11
+C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\interactive-avatar.scss:11
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -73,4 +73,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$red\".\A         on line 11 of C:\Users\feel_\OneDrive\Desktop\project2\css\components\interactive-avatar.scss\A \A 6:   border-radius: 50%;\A 7:   overflow: hidden;\A 8:   position: relative;\A 9: \A 10:   &--active {\A 11:     border-color: $red;\A 12:   } \A 13: }\A 14: \A 15: .interactive-avatar__link {\A 16:   position: absolute;"; }
+  content: "Error: Undefined variable: \"$red\".\A         on line 11 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\interactive-avatar.scss\A \A 6:   border-radius: 50%;\A 7:   overflow: hidden;\A 8:   position: relative;\A 9: \A 10:   &.active {\A 11:     border-color: $red;\A 12:   } \A 13: }\A 14: \A 15: .interactive-avatar__link {\A 16:   position: absolute;"; }

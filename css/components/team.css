@@ -1,50 +1,28 @@
 /*
-Error: Undefined mixin 'phones'.
-        on line 14 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\section.scss, in `phones'
-        from line 14 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\section.scss
+Error: Undefined mixin 'tablets'.
+        on line 9 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\team.scss, in `tablets'
+        from line 9 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\team.scss
 
-9:     color: white;
-10: 
-11:     .section__title {
-12:       color: inherit;
+4: }
+5: 
+6: .team-section {
+7:     justify-content: flex-start;
+8: 
+9:     @include tablets {
+10:         justify-content: center;
+11:     }
+12: }
 13: 
-14:       @include phones {
-15:         font-size: 2.7rem;
-16:       }
-17:     }
-18:   }
-19: }
+14: .team--version--desktop {
 
 Backtrace:
-C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\section.scss:14:in `phones'
-C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\section.scss:14
+C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\team.scss:9:in `tablets'
+C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\team.scss:9
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
@@ -88,4 +66,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'phones'.\A         on line 14 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\section.scss, in `phones'\A         from line 14 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\section.scss\A \A 9:     color: white;\A 10: \A 11:     .section__title {\A 12:       color: inherit;\A 13: \A 14:       @include phones {\A 15:         font-size: 2.7rem;\A 16:       }\A 17:     }\A 18:   }\A 19: }"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 9 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\team.scss, in `tablets'\A         from line 9 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\team.scss\A \A 4: }\A 5: \A 6: .team-section {\A 7:     justify-content: flex-start;\A 8: \A 9:     @include tablets {\A 10:         justify-content: center;\A 11:     }\A 12: }\A 13: \A 14: .team--version--desktop {"; }

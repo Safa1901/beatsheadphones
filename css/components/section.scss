@@ -25,4 +25,8 @@
   text-align: center;
   text-transform: uppercase;
   color: #292929;
+
+  @include tablets {
+    margin-bottom: 3rem;
+  }
 }

@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$baseFontSize".
-        on line 2 of C:\Users\feel_\OneDrive\Desktop\project2\css\layout.scss
+        on line 2 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\layout.scss
 
 1: html {
 2:   font-size: $baseFontSize;
@@ -11,7 +11,7 @@ Error: Undefined variable: "$baseFontSize".
 7:     @include phones {
 
 Backtrace:
-C:\Users\feel_\OneDrive\Desktop\project2\css\layout.scss:2
+C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\layout.scss:2
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -58,4 +58,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$baseFontSize\".\A         on line 2 of C:\Users\feel_\OneDrive\Desktop\project2\css\layout.scss\A \A 1: html {\A 2:   font-size: $baseFontSize;\A 3: \A 4:   @include tablets {\A 5:     font-size: $baseFontSize - 1px;\A 6: \A 7:     @include phones {"; }
+  content: "Error: Undefined variable: \"$baseFontSize\".\A         on line 2 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\layout.scss\A \A 1: html {\A 2:   font-size: $baseFontSize;\A 3: \A 4:   @include tablets {\A 5:     font-size: $baseFontSize - 1px;\A 6: \A 7:     @include phones {"; }
