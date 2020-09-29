@@ -1,18 +1,17 @@
 /*
-Error: Undefined variable: "$containerWidth".
-        on line 3 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\color.scss
+Error: Undefined variable: "$grey".
+        on line 2 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\color.scss
 
-1: .wrapper__color {
-2:     width: 95%;
-3:     max-width: $containerWidth;
-4:     margin: 0 auto;
-5:     position: relative;
-6:     height: 100%;
-7:     //min-height: 40.125rem;
-8:     //min-width: 85rem;
+1: .color {
+2:     background: $grey;
+3:     color: #292929;
+4:     display: flex;
+5: }
+6: 
+7: .bx-wrapper {
 
 Backtrace:
-C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\color.scss:3
+C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\color.scss:2
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -59,4 +58,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$containerWidth\".\A         on line 3 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\color.scss\A \A 1: .wrapper__color {\A 2:     width: 95%;\A 3:     max-width: $containerWidth;\A 4:     margin: 0 auto;\A 5:     position: relative;\A 6:     height: 100%;\A 7:     //min-height: 40.125rem;\A 8:     //min-width: 85rem;"; }
+  content: "Error: Undefined variable: \"$grey\".\A         on line 2 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\color.scss\A \A 1: .color {\A 2:     background: $grey;\A 3:     color: #292929;\A 4:     display: flex;\A 5: }\A 6: \A 7: .bx-wrapper {"; }

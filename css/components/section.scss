@@ -1,5 +1,6 @@
 .section {
-  height: 100%;
+  // height: 100%;
+  height: 100vh;
   min-height: 46.875rem;
   display: flex;
   flex-direction: column;
@@ -25,6 +26,7 @@
   text-align: center;
   text-transform: uppercase;
   color: #292929;
+  padding-top: 4.375rem;
 
   @include tablets {
     margin-bottom: 3rem;

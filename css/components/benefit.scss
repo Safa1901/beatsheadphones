@@ -1,5 +1,9 @@
 .benefit {
   text-align: center;
+
+  @include phones {
+    width: 100% !important;
+  }
 }
 
 .benefit__image {
@@ -30,7 +34,7 @@
 
 .benefit__text {
   @include phones {
-    text-align: left;
+    text-align: start;
   }
 }
 

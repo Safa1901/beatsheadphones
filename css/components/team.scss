@@ -11,9 +11,13 @@
     }
 }
 
+.teams {
+    padding-top: 4.5rem;
+}
+
 .team--version--desktop {
     position: absolute;
-    top: 100%;
+    // top: 100%;
 
     @include tablets {
         display: none;

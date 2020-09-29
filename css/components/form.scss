@@ -80,6 +80,10 @@
   }
 }
 
+.input-error {
+  border-color: #F40EED;
+}
+
 .form__input--textarea {
   @include phones {
     height: 6.5rem;

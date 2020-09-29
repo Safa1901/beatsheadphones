@@ -13,7 +13,7 @@ Error: Undefined mixin 'tablets'.
 11:     }
 12: }
 13: 
-14: .team--version--desktop {
+14: .teams {
 
 Backtrace:
 C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\team.scss:9:in `tablets'
@@ -66,4 +66,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 9 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\team.scss, in `tablets'\A         from line 9 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\team.scss\A \A 4: }\A 5: \A 6: .team-section {\A 7:     justify-content: flex-start;\A 8: \A 9:     @include tablets {\A 10:         justify-content: center;\A 11:     }\A 12: }\A 13: \A 14: .team--version--desktop {"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 9 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\team.scss, in `tablets'\A         from line 9 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\team.scss\A \A 4: }\A 5: \A 6: .team-section {\A 7:     justify-content: flex-start;\A 8: \A 9:     @include tablets {\A 10:         justify-content: center;\A 11:     }\A 12: }\A 13: \A 14: .teams {"; }
