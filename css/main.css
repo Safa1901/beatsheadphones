@@ -1126,7 +1126,7 @@ img {
   visibility: visible;
   display: flex; }
   .menu-acco__item.active .menu-acco__content {
-    width: 34.375rem;
+    width: 34.375rem !important;
     transition: width 0.4s, color .4s .3s; }
 
 .menu-acco__trigger {
