@@ -1,0 +1,50 @@
+ul{
+    background-color: #0033cc;
+    position: absolute;
+    height: 500px;
+    top: 100;
+    right: 0;
+    list-style: none;
+}
+li{
+   height: 100%;
+/*что бы слайды стали горизонтальные*/
+   float: left;
+}
+.trigger{
+    height: 100%;
+    width: 80px;
+    background-color: #008200;
+    border: 1px solid #49FFA6;
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+
+.trigger p{
+    text-align: center;
+/*что бы текст был одной строкой*/
+    white-space: nowrap;
+/*для горизонтальности текста*/
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    font-weight: bold;
+}
+.content{
+    float: left;
+    background-color: #000;
+/*вся магия в том что убираем ширину 
+блока с контентом, а при клике js 
+добавляет 530 px*/
+    width: 0;
+/*обрезает всё что уходит за рамки контейнера*/
+    overflow: hidden;
+}
+.content p, .content h3{
+    width: 500px;
+    color: #fff;
+    padding: 15px;
+}
