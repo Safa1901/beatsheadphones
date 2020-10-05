@@ -1,0 +1,123 @@
+.beats-menu {
+    position: fixed;
+    right: 2rem;
+
+    @include tablets {
+        top: 4%;
+        margin: 0!important;
+    }
+}
+
+.beats-menu-button {
+    background-color: #292929;
+    border-style: none;
+    display: none;
+    margin-left: 2%;
+    margin-top: 4.5%;
+    width: 1.5rem;
+    height: 0.2rem;
+    position: relative;
+    border-radius: 0.4rem;
+
+    &:before {
+        content: "";
+        margin-top: 0.3rem;
+        position: absolute;
+        display: block;
+        width: 1.5rem;
+        height: 0.2rem;
+        background-color: #292929;
+        border-radius: 0.4rem;
+    }
+
+    &:after {
+        content: "";
+        margin-top: -0.5rem;
+        position: absolute;
+        display: block;
+        width: 1.5rem;
+        height: 0.2rem;
+        background-color: #292929;
+        border-radius: 0.4rem;
+    }
+
+    @include tablets {
+        display: block;
+        margin-left: 2%;
+        margin-top: 4.5%;
+    }
+}
+
+.visible {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: #2f3234;
+}
+
+.hide-menu {
+    display: none;
+}
+
+.beats-menu-closed {
+    background-color: transparent;
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    border: none;
+
+    &:before {
+        content: ' ';
+        top: 0.5rem;
+        position: absolute;
+        left: 0.8rem;
+        height: 1rem;
+        width: 2px;
+        background-color: #fff;
+        transform: rotate(45deg);
+    }
+
+    &:after {
+        content: ' ';
+        top: 0.5rem;
+        position: absolute;
+        left: 0.8rem;
+        height: 1rem;
+        width: 2px;
+        background-color: #fff;
+        transform: rotate(-45deg);
+    }
+
+    @include tablets {
+        margin-top: 4% !important;
+        margin-left: 93% !important;
+
+    }
+}
+
+.hide-list {
+    display: flex;
+    height: 65%;
+    padding: 10%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hide-list__item {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.full-menu__link {
+    
+    @include tablets {
+        text-decoration: none;
+        font-size: 2.25rem;
+        line-height: 4.5rem;
+        color: #FFFFFF;
+    }
+}

@@ -4,7 +4,6 @@
   @include phones {
     display: flex;
     flex-direction: column;
-    padding-right: 15%;
   }
 }
 
@@ -12,9 +11,14 @@
   flex: 1;
   margin: 0 3%;
 
+  @include tablets {
+    margin: 0;
+  }
+
   @include phones {
     display: flex;
     margin: 0;
+    padding-top: 5%;
   }
 
   &:first-child {

@@ -1,3 +1,10 @@
+.reviews-title {
+  @include tablets {
+    padding-top: 20%;
+    padding-bottom: 3%;
+  }
+}
+
 .reviews__display-inner {
   background: #F8FAF9;
   padding: 3.125rem 2.8125rem 2.125rem;

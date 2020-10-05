@@ -46,4 +46,12 @@
 
 .benefit__desc {
   padding-bottom: 6.0625rem;
+
+  @include tablets {
+    padding: 0 7%;
+  }
+
+  @include phones {
+    padding: 0;
+  }
 }

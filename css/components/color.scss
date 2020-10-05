@@ -44,16 +44,37 @@
     height: 1.75rem;
     position: absolute;
     top: 19.25rem;
-    transform: translateY(-50%);
+    // transform: translateY(-50%);
     z-index: 10;
 
     &--direction--next {
         right: 0;
+
+        @include tablets {
+            right: 20%;
+        }
+
+        @include phones {
+            right: 0;
+        }
     }
 
     &--direction--prev {
         left: 0;
         transform: rotate(-180deg);
+        margin-left: -5%;
+
+        @include tablets {
+            margin: 0 20% !important;
+        }
+
+        @include phones {
+            margin: 0 !important;
+        }
+    }
+
+    @include tablets {
+        top: 13.25rem;
     }
 }
 
@@ -160,14 +181,15 @@
     &-desc {
         color: #666666;
         padding-bottom: 1.57rem;
+        padding-right: 16%;
 
         @include tablets {
             font-size: 1rem;
-            padding: 0.875rem 5rem;
+            padding: 0.875rem 4rem;
         }
 
         @include phones {
-            padding: 0.875rem 1rem;
+            padding: 0.875rem 3rem;
         }
     }
 }
@@ -175,19 +197,30 @@
 .crumbs {
     @include tablets {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         text-align: start;
         padding-left: 5.75rem;
         margin: 0;
         padding-bottom: 1.5rem;
+    }
+
+    @include phones {
+        padding-left: 25%;
     }
 }
 
 .crumbs__item {
 
     @include tablets {
+        margin: 0 3%;
+
         &:last-child {
             padding-left: 3.75rem;
+
+            @include phones {
+                padding: 0 30% !important;
+                padding-right: 7rem;
+            }
         }
     }
 }
@@ -199,6 +232,10 @@
     @include tablets {
         padding-left: 15%;
     }
+
+    @include phones {
+        padding-left: 0;
+    }
 }
 
 .price {
@@ -206,4 +243,14 @@
     padding-right: 15%;
     margin: 0;
     margin-left: 0;
+    
+    @include tablets {
+        padding-left: 10%;
+        padding-right: 5%;
+        margin: 0 !important;
+    }
+
+    @include phones {
+        padding-left: 18%;
+    }
 }

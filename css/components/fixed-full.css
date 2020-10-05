@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'tablets'.
-        on line 9 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\fixed-full.scss, in `tablets'
-        from line 9 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\fixed-full.scss
+        on line 14 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\fixed-full.scss, in `tablets'
+        from line 14 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\fixed-full.scss
 
-4:     width: 100%;
-5:     left: 0;
-6:     z-index: 1;
-7:     
-8: 
-9:     @include tablets {
-10:        display: none;
-11:        position: fixed;
-12:        width: 100vw;
-13:        height: 100vh;
-14:        top: 0;
+9:     width: 100%;
+10:     left: 0;
+11:     z-index: 1;
+12:     
+13: 
+14:     @include tablets {
+15:        position: relative;
+16:        width: 100vw;
+17:        height: 100vh;
+18:        top: 0;
+19:        align-items: center;
 
 Backtrace:
-C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\fixed-full.scss:9:in `tablets'
-C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\fixed-full.scss:9
+C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\fixed-full.scss:14:in `tablets'
+C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\fixed-full.scss:14
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -66,4 +66,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 9 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\fixed-full.scss, in `tablets'\A         from line 9 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\fixed-full.scss\A \A 4:     width: 100%;\A 5:     left: 0;\A 6:     z-index: 1;\A 7:     \A 8: \A 9:     @include tablets {\A 10:        display: none;\A 11:        position: fixed;\A 12:        width: 100vw;\A 13:        height: 100vh;\A 14:        top: 0;"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 14 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\fixed-full.scss, in `tablets'\A         from line 14 of C:\Users\feel_\OneDrive\Desktop\projects\project2\beat\css\components\fixed-full.scss\A \A 9:     width: 100%;\A 10:     left: 0;\A 11:     z-index: 1;\A 12:     \A 13: \A 14:     @include tablets {\A 15:        position: relative;\A 16:        width: 100vw;\A 17:        height: 100vh;\A 18:        top: 0;\A 19:        align-items: center;"; }
